@@ -1,0 +1,11 @@
+Test case ID:,TestCase Description:,Test Steps:,Expected Result:,Actual Result:,Status:,Remarks:
+TC001,Product Listing Page,"1. Open the website 2. Navigate to Product Listing Page,","Page should load with product images ,names, and prices displayed",Page loads with products displayed,Pass,All product details are shown correctly
+TC002,API Handling for Product Data,1. Make an API call to fetch product data,API should return product details in JSON format,API returns product details in JSON format,Pass,Data returned as expected
+TC003,Cart Functionality - Add Product,"1. Select a product 2. Click ""Add to Cart"" button",Product should be added to cart,Product is added to cart,Pass,Cart updates successfully
+TC004,Cart Functionality - Remove Product,"1. Go to Cart page 2. Click ""Remove"" button for a product",Product should be removed from cart,Product is removed from cart,Pass,Cart updates successfully
+TC005,Cart Functionality - Update Quantity,"1. Go to Cart page 2. Update product quantity 3. Click ""+""",Quantity should be updated correctly,Quantity is updated,Pass,Cart quantity updates as expected
+TC006,Checkout Process,1. Add items to cart 2. Go to Checkout page 3. Enter shipping info 4. Complete purchase,Order should be placed successfully,Order placed successfully,Pass,Order confirmation is received
+TC007,Product Page - View Details,1. Select a product from the listing 2. View product details,Product details page should display more info,"Page loads with product description, images, and price",Pass,Details loaded correctly
+TC008,Search Functionality,1. Enter search term in search bar 2. Press enter,Search results should display relevant products,Search results are displayed correctly,Pass,Search functionality works as expected
+TC009,Add Multiple Products to Cart,1. Add multiple products to cart 2. Go to Cart page,All added products should be shown in the cart,All products are shown in the cart,Pass,Cart displays all selected products
+TC010,Add Review for Product,1. Navigate to product details page 2. Scroll to review section 3. Add a review and submit,Review should be added successfully and displayed on the page,Review is added successfully and displayed,Pass,Review submission works as expected
